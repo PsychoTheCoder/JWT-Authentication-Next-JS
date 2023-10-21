@@ -1,9 +1,9 @@
 import Image from 'next/image'
-import HeroSection from '../components/HeroSection'
+
 export default function Home() {
   return (
-  <>
-  <HeroSection/>
-  </>
+  <div>
+    <p className='text-5xl font-bold'>Features</p>
+    </div>
   )
 }

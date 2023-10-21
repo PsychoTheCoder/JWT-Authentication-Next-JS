@@ -1,13 +1,12 @@
-import '../css/globals.css'
+import '../../css/globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Navbar from '@/components/Navbar'
-import 'react-toastify/dist/ReactToastify.css';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Welcome to HoxTrackr',
-  description: 'HoxTrackr is a user-friendly web application designed to help individual students efficiently manage their personal finances',
+  title: 'Signup - HoxTrackr',
+  description: 'Create a new HoxTrackr account',
 }
 
 export default function RootLayout({
